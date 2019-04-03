@@ -1,0 +1,542 @@
+html,body { margin:0; height:100%;}
+
+.parallax1 {
+    /* L’image du Parallax */
+    background-image: url("../img/Bike2.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 > .row {
+    height: 100%
+}
+
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../img/Bike3.jpg");
+    background-image: url("../img/Giant_Defy_Advanced.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 > .row{
+    height:100%
+}
+
+.parallax3 {
+    /* L’image du Parallax */
+    background-image: url("../img/Bike2.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 > .row{
+    height:100%
+}
+
+
+ul{
+    font-size: 14px;
+    font-family: "Franklin Gothic Book";
+    color: rgba(63,64,59,1);
+    text-align: justify;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 51px;
+    color: rgba(63,64,59,1);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: "Franklin Gothic Heavy";
+    color: rgba(63,64,59,1);
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font-size: 42px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+    line-height: 44px;
+    color: rgba(63,64,59,1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+h4 {
+    font-size: 28px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+    line-height: 23px;
+    color: rgba(63,64,59,1);
+    text-align: center;
+    margin-top: 0px;
+}
+
+h5{
+    font-size: 23px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+    vertical-align: after-edge;
+    color: rgba(36,145,186,1);
+    color: white;
+    text-align: left;
+    margin-top: 0px;
+
+}
+
+.titre {
+    font-size: 125px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+    line-height: 90px;
+    color: rgba(63,64,59,1);
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+p{
+    font-size: 18px;
+    font-family: "Franklin Gothic Book";
+    line-height: 22px;
+    color: rgba(63,64,59,1);
+    text-align: justify;
+}
+
+.boutonRouge {
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 2px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+}
+
+.boutonContourBlanc {
+    border-radius: 4px;
+    border-color: rgba(255,255,255,1);
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    padding: 2px 12px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+}
+
+.boutonContourBleu {
+    border-radius: 4px;
+    border-color: rgba(36,145,186,1);
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(0,0,0,0);
+    color: rgba(36,145,186,1);
+    padding: 2px 12px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+}
+
+.allCaps{
+    text-transform: uppercase;
+}
+
+.txtBold{
+    font-family: "Franklin Gothic Heavy";
+}
+
+.txtBleuFonce{
+    color: rgba(29,101,115,1);
+}
+
+.txtBlanc{
+    color: white;
+}
+
+.txtCentre{
+    text-align: center;
+}
+
+.txtGrisFonce
+{
+    color: rgba(63,64,59,1);
+}
+
+.alignDroite{
+    text-align: right;
+}
+
+.alignCentre{
+    text-align: center;
+}
+
+.bg
+{
+    background-position: center;
+    background-image: url("../img/Giant_Defy_Advanced.jpg");
+    background-image: url("../img/Bike3.jpg");
+    height: 100%;
+    background-size: cover;
+    align-content: center;
+
+}
+
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    .bg
+    {
+        background-position: center;
+        background-image: url("../img/Giant_Defy_Advanced.jpg");
+        background-image: url("../img/Bike3_Cellulaire.jpg");
+        height: 100%;
+        background-size: cover;
+        align-content: center;
+
+    }
+}
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .bg
+    {
+        background-position: center;
+        background-image: url("../img/Giant_Defy_Advanced.jpg");
+        background-image: url("../img/Bike3.jpg");
+        height: 100%;
+        background-size: cover;
+        align-content: center;
+
+    }
+}
+
+
+/*Couleurs*/
+.bgGrisFonce
+{
+    background-color: rgba(63,64,59,1);
+}
+
+.grisFonce
+{
+    background-color: rgba(63,64,59,1);
+}
+
+.grisFonceOpacity50 {
+    background-color: rgba(63, 64, 59, 0.5);
+}
+
+.Bleu{
+    background-color: rgba(36,145,186,1);
+}
+
+.BleuLargeur{
+    width: 2px;
+}
+
+.txtBleu{
+    color: rgba(36,145,186,1);
+}
+
+.footer{
+    height: 75px;
+}
+
+.bg > .row{
+    height:100%
+}
+
+.margeGaucheDroite{
+    padding-left:12px;
+    padding-right:12px;
+
+ }
+
+.padding0{
+    padding: 0px;
+}
+
+.marge
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.margeZoneOptions
+{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.margeZoneNouveaute
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.margeEntete
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.margeFooter
+{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+
+.margeSection1
+{
+    padding-top: 400px;
+    padding-bottom: 100px;
+}
+
+
+.margeHautAccueil
+{
+    padding-top: 300px;
+}
+
+
+.margeBasAccueil
+{
+    padding-bottom: 35px;
+}
+
+.margeHaut
+{
+    padding-top: 65px;
+}
+
+.margeBas
+{
+    padding-bottom: 65px;
+}
+
+.paddingDroite{
+    padding-right: 30px;
+}
+
+.paddingGauche{
+    padding-left: 80px;
+}
+
+
+.margeGauche{
+    margin-left: 20px;
+}
+
+.paddingTop{
+   padding-top:  14px;
+}
+
+.hauteur40{
+    height:  40%;
+}
+
+.hauteur20{
+    height: 20%;
+}
+
+.bgBlanc{
+    background: rgba(255,255,255,0.85);
+}
+
+.bgNoir{
+    /*height: 175px;*/
+    background: rgba(30,30,30,0.85);
+}
+
+.bgGris{
+    background: rgba(20,115,154,1);
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.marge
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.blanc{
+    color: white;
+}
+
+/*
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}*/
+
+.navbar {
+    background-color: rgba(63,64,59,1);
+}
+.navbar .navbar-brand {
+    color: #ffffff;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar .navbar-text {
+    color: #ffffff;
+}
+.navbar .navbar-text a {
+    color: #ffffff;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #ffffff;
+}
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #ffffff;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ffffff;
+    background-color: #2491ba;
+}
+.navbar .navbar-toggle {
+    border-color: #2491ba;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #2491ba;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #ffffff;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #ffffff;
+}
+.navbar .navbar-link {
+    color: #ffffff;
+}
+.navbar .navbar-link:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #2491ba;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #2491ba;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #2491ba;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #2491ba;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #2491ba;
+}

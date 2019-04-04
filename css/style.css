@@ -133,6 +133,9 @@ p{
     color: rgba(63,64,59,1);
     text-align: justify;
 }
+.petitTexte{
+    font-size: 14px;
+}
 
 .boutonRouge {
     background-color: red;
@@ -331,12 +334,13 @@ p{
 .margeHautAccueil
 {
     padding-top: 300px;
+
 }
 
 
 .margeBasAccueil
 {
-    padding-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .margeHaut
@@ -347,6 +351,11 @@ p{
 .margeBas
 {
     padding-bottom: 65px;
+}
+
+.margeBasBouton
+{
+    padding-bottom: 10px;
 }
 
 .paddingDroite{
